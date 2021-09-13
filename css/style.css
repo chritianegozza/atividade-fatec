@@ -1,0 +1,306 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f0e7ee
+    
+}
+
+header {
+	background: #bbbbbb;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c7197e;
+	text-decoration: underline;
+}
+
+.titulo-sobre{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.caixa-sobre {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.resumo{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px; 
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+.nome {
+    font-weight: bold;
+    color: rgb(235, 52, 180);
+}
+
+.lado1 {
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+.margin-texto {
+    margin-bottom: 40px;
+}
+
+.lado2 {
+    width: 20%;
+    font-family: open sans, sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.caixa-sobre1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.lado3{
+    width: 20%;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align:left;
+    font-family: open sans, sans-serif;
+    font-size: 18px
+}
+.lado4 {
+    width: 40%;
+    justify-content: space-between;
+    text-align:left;
+    line-height: 1.5;    
+}
+
+.titulo-sobre{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.foto-projeto { 
+    display: flex;
+    flex-direction:  row-reverse;
+    justify-content: space-around;
+    border: 1px solid  rgb(246, 1, 152);
+    max-width: 800px;
+    margin: 0 auto;
+}
+div.gallery{
+    margin: 5px;
+    border: 1px solid rgb(241, 56, 164);
+    float: left;
+    width: 200px;
+  }
+  
+div.gallery:hover{
+    border: 1px solid #000;
+  }
+  
+div.gallery img{
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc{
+    padding: 15px;
+    text-align: center;
+  }
+  
+        
+
+.titulo-hard {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(235, 52, 180);
+    
+   
+}
+
+.Hardskills {
+    line-height: 1.8;
+    
+}
+
+.titulo-sobre {
+    margin-left: 100px;
+    font-size: 35px;
+    color: rgb(248, 88, 163);
+  
+
+}
+
+.experiencia{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px; 
+    padding: 8px 50px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.trabalho {
+    color: rgb(235, 52, 180);
+}
+
+.educacao {
+    text-align: center;
+    font-size: 18px;
+    margin: 3em auto;
+   
+}
+
+.educacao__lista{
+    padding: 8px 50px;
+    width: 50%;
+    margin: 0 auto;
+    text-align:left;
+    font-family: open sans, sans-serif;
+    font-size: 18px
+
+ 
+}
+
+#educacao-academica{ 
+    color: rgb(235, 52, 180);
+}
+
+.extras{
+    padding: 8px 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align:left;
+    font-family: open sans, sans-serif;
+    font-size: 18px;
+    margin: 3em auto;
+}
+
+
+
+footer{
+    text-align: center;
+    padding:20px;
+    background-color:#333;
+    color: white;
+    margin:1px 0px;
+    display: flex;
+    justify-content: space-around
+}
+
+footer div{text-align: left;}
+footer img{vertical-align: middle;}
+footer a{color: white;font-weight: bold;}
+
+
+
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+
+	
+}
+.caixa-banner{
+    background-image: url(/assets/fotobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   text-align: center;
+   margin: 6em auto;
+   border: 1px solid #c7197e; 
+}
+
+
+
+#contato{
+
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+#contato > svg{
+    margin:10px;
+    width: 30px;
+    height: 30px;
+}
+
+.experiencia{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px; 
+    padding: 8px 50px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+@media(max-width: 710px) {
+    .caixa-sobre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.lado1 {
+    width: 80%;
+    text-align: justify;
+}
+
+.lado2 {
+    width: 80%;
+
+}
+
+.lado3 {
+    width: 80%;
+}
+
+
+}
