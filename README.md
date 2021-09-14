@@ -12,12 +12,9 @@ Foto do projeto
 
 
 ![image](https://user-images.githubusercontent.com/72118415/133173101-95ca586d-80b8-4119-b81f-ac21be645127.png)
-
-
-
-
-Endereço do site :https: // portfoliochristianegozza. netlify.app 
-
+  
+  
+  Endereço do venha conhecer em  [Projeto do portfolio](https: // portfoliochristianegozza. netlify.app) 
 ------------------------------------------------------------------------------------------------------------------
 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
